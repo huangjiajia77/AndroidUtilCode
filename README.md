@@ -188,6 +188,12 @@
 >  - 获取SD卡Data路径 *getDataPath*
 >  - 计算SD卡的剩余空间 *getFreeSpace*
 
+> - **存储空间相关→[][memory.java]**
+>  - 计算内存总空间 *getDataPath*
+>  - 计算内存的剩余空间 *getFreeSpace*
+>  - 根据路径获取存储空间 *getSDSpaceh*
+>  - 根据路径剩余空间 *getSDFreeSpace*
+
 > - **Shell相关→[ShellUtils.java][shell.java]**
 >  - 判断设备是否root *isRoot*
 >  - 是否是在root下执行命令 *execCmd*
